@@ -1,0 +1,88 @@
+.container {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container .boxcontainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .box {
+  width: 12rem;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.container .box .boxcontent {
+  text-justify: justify;
+  display: flex;
+  justify-content: center;
+}
+
+.formcontainer {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+.formcontainer div {
+  width: 100rem;
+}
+.formcontainer div input {
+  margin-top: 10px;
+}
+.formcontainer div #sku, .formcontainer div #name, .formcontainer div #price {
+  margin-left: 40px;
+}
+.formcontainer div small {
+  display: block;
+  margin-left: 100px;
+  font-size: 1em;
+  color: red;
+}
+.formcontainer div p {
+  margin-top: 3px;
+  margin-left: 45px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header h3 {
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.savebtn, .cancelbtn {
+  padding: 0.5em 1em 0.5em 1em;
+  display: inline;
+  color: white;
+}
+
+.savebtn {
+  background-color: green;
+}
+
+.cancelbtn {
+  background-color: red;
+}
+
+.line {
+  width: 100% !important;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+.switcher {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

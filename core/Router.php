@@ -44,8 +44,6 @@ class Router
 
     public function renderView($view , $rows= [])
     {
-        //var_dump($params);
-       // echo $view;
         include_once __DIR__."/../views/$view.php";
     }
 }

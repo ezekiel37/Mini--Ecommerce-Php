@@ -46,10 +46,10 @@
         <label>Type Switcher</label>
      
            <select name="select" id="productType">
-             
+           <option id="Book">Book</option>
               <option id="Dvd">Dvd</option>
               <option id="Furniture">Furniture</option>
-              <option id="Book">Book</option>
+              
            </select>
 </div>  
 <!-- --->    
@@ -103,9 +103,10 @@ $( document ).ready(function() {
     //handles product changes
 $(".Book, .Furniture").hide()
 $("#productType").on("change",function() {
-   
+    $(this).val();
     $(".Dvd, .Furniture, .Book").hide()
  $( "." + $(this).val()).show()
+ console.log($(this).val());
 });
     //////////////////////////////////
     $("input").click(function(){

@@ -1,7 +1,15 @@
 {
-    "autoload":{
-        "psr-4":{
-            "App\\":"src/"
+    "name": "techclubng/scandiweb",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Ezekiel",
+            "email": "ezekielojo38@gmail.com"
+        }
+    ],
+    "require": {}
 }
